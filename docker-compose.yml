@@ -7,7 +7,7 @@ services:
       - 8080:80
       - 8043:443
     volumes:
-      - ./php:/var/www/html
+      - ./php_rest_demo-main/:/var/www/html/rest
 
   mio_dbserver:
     image: mysql:5.7
